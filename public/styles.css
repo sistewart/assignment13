@@ -1,0 +1,12 @@
+body{
+    background:lightgreen;
+}
+
+.player{
+    background:lightpink;
+    width:60%;
+    margin:auto;
+    border:5px solid magenta;
+    padding: 20px;
+    border-radius:10px;
+}
