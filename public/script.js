@@ -18,11 +18,11 @@ function makePlayerProfile(player){
     playerElem.append(playerName);
 
     playerBio = document.createElement("p");
-    playerBio.innerHTML = `He is from ${player.hometown} and is ${age} years old.`;
+    playerBio.innerHTML = `He is from ${player.hometown} and is ${player.age} years old.`;
     playerElem.append(playerBio);
 
     playerTeam = document.createElement("p");
-    playerTeam.innerHTML = `He has been playing for ${years} years and currently plays for the ${current}.`;
+    playerTeam.innerHTML = `He has been playing for ${player.years} years and currently plays for the ${player.current}.`;
     playerElem.append(playerTeam);
 
     formerTeams = document.createElement("h3");
