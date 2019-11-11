@@ -7,7 +7,7 @@ exports.players = [
         former:["Cleveland Cavaliers", "Miami Heat", "Cleveland Cavaliers"],
         current: "Los Angeles Lakers",
         years:"16",
-        picture: "images/lebron.jpg"
+        picture: "public/images/lebron.jpg"
 
     },
     {
